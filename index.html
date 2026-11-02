@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+	<title>GARDEN / Главная</title>
+</head>
+
+<body>
+	<div class="wrapper ">
+		<header class="header">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="header_content">
+						<a class="header_content_logo" href="index.html">
+							<img src="img/header_logo.svg" alt="">
+						</a>
+						<nav class="header_content_navlist">
+							<ul class="header_content_navlist_list">
+								<li class="header_content_navlist_list_item">
+									<a href="#">
+										Апартаменты
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="#">
+										Инфраструктура
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="#">
+										Статьи
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="#">
+										Акции и скидки
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item header_content_navlist_list_item_more">
+									<a class="header_content_navlist_more_btn" href="#">
+										<p>Ещё</p>
+										<img src="img/header_arrow.svg" alt="">
+									</a>
+									<div class="header_content_navlist_dropdown">
+								        <a href="#about">О комплексе</a>
+								        <a href="#conditions">Условия проживания</a>
+								        <a href="#contacts">Контакты</a>
+								        <a href="#route">Как добраться</a>
+							        	<button class="header_content_navlist_dropdown_close" type="button">
+							            Закрыть
+							       		</button>
+   					 				</div>
+								</li>
+							</ul>
+						</nav>
+						<button class="header_content_btn btn_animate" href="#">
+							Забронировать
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="firstsec_mainpage">
+			<video class="firstsec_mainpage_video" autoplay muted loop playsinline>
+    			<source src="img/video.mp4" type="video/mp4">
+  			</video>
+  			<div class="firstsec_mainpage_overlay"></div>
+			<div class="full_container firstsec_mainpage_content_container">
+				<div class="main__container">
+					<div class="firstsec_mainpage_content">
+						<b>СЕВАСТОПОЛЬ · АПАРТАМЕНТЫ У МОРЯ</b>
+						<h1>Ваше место для отдыха <br> рядом с морем</h1>
+						<p>Апартаменты в Севастополе.</p>
+						<p>Пляж — в 100 метрах от комплекса.</p>
+						<div class="firstsec_mainpage_content_buttons">
+							<a class="firstsec_mainpage_content_buttons_select btn_animate" href="#">
+								Подобрать апартаменты
+							</a>
+							<a class="firstsec_mainpage_content_buttons_bron btn_animate2" href="#">
+								Забронировать
+							</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</section>
+
+		<section class="searchsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="searchsec_mainpage_content">
+						<form class="booking__form" id="bookingForm">
+						    <div class="booking__field">
+						      	<label class="booking__label" for="checkin">Заезд</label>
+						      	<div class="booking__input-wrap booking__date-wrap">
+									<input class="booking__date-real" type="date" id="checkin"name="checkin" required>
+						  			<span class="booking__date-placeholder">ДД.ММ.ГГГГ</span>
+						  			<svg class="booking__calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M16 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M3 10H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M8 14H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M12 14H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M16 14H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M8 18H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M12 18H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									<path d="M16 18H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									</svg>
+								</div>
+						    </div>
+
+						    <div class="booking__field">
+						      <label class="booking__label" for="checkout">Выезд</label>
+						      <div class="booking__input-wrap booking__date-wrap">
+									<input class="booking__date-real" type="date" id="checkout"name="checkout" required>
+						  			<span class="booking__date-placeholder">ДД.ММ.ГГГГ</span>
+						  			<svg class="booking__calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M3 10H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 14H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 14H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 14H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 18H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 18H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 18H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									</svg>
+								</div>
+						    </div>
+
+						    <div class="booking__field">
+						      <label class="booking__label" for="guests">Гости</label>
+						      <div class="booking__select-wrap">
+						        <select class="booking__select" id="guests" name="guests">
+						          <option value="1">1 гость</option>
+						          <option value="2" selected>2 гостя</option>
+						          <option value="3">3 гостя</option>
+						          <option value="4">4 гостя</option>
+						          <option value="5">5 гостей</option>
+						          <option value="6">6 гостей</option>
+						        </select>
+						        <span class="booking__select-arrow"></span>
+						      </div>
+						    </div>
+
+						    <button class="booking__button btn_animate" type="submit">
+						      Найти
+						    </button>
+  						</form>
+					</div>		
+				</div>
+			</div>
+		</section>
+
+		<section class="placesec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="placesec_mainpage_content">
+						<div class="placesec_mainpage_content_header">
+							<h2>Выберите место для вашего отдыха</h2>
+							<p>Фотографии показывают комплекс Garden. Подберём апартаменты под ваши даты и состав гостей.</p>
+						</div>
+						<div class="searchsec_mainpage_content_list">
+							<div class="searchsec_mainpage_content_list_item">
+								<div class="searchsec_mainpage_content_list_item_container">
+									<img src="img/searchsec_mainpage_content_list_item_1.png" alt="">
+									<div class="searchsec_mainpage_content_list_item_title">
+										<div class="searchsec_mainpage_content_list_item_title_category">
+											<span>Garden · Апартаменты у моря</span>
+										</div>
+										<h3>Апартаменты 01</h3>
+										<p>Пляж в 100 метрах</p>
+										<p>Характеристики — при подборе</p>
+										<b>Стоимость по запросу</b>
+										<a class="btn_animate2" href="#">
+											Подробнее →
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="searchsec_mainpage_content_list_item">
+								<div class="searchsec_mainpage_content_list_item_container">
+									<img src="img/searchsec_mainpage_content_list_item_2.png" alt="">
+									<div class="searchsec_mainpage_content_list_item_title">
+										<div class="searchsec_mainpage_content_list_item_title_category">
+											<span>Garden · Апартаменты у моря</span>
+										</div>
+										<h3>Апартаменты 02</h3>
+										<p>Пляж в 100 метрах</p>
+										<p>Характеристики — при подборе</p>
+										<b>Стоимость по запросу</b>
+										<a class="btn_animate2" href="#">
+											Подробнее →
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="searchsec_mainpage_content_list_item">
+								<div class="searchsec_mainpage_content_list_item_container">
+									<img src="img/searchsec_mainpage_content_list_item_3.png" alt="">
+									<div class="searchsec_mainpage_content_list_item_title">
+										<div class="searchsec_mainpage_content_list_item_title_category">
+											<span>Garden · Апартаменты у моря</span>
+										</div>
+										<h3>Апартаменты 03</h3>
+										<p>Пляж в 100 метрах</p>
+										<p>Характеристики — при подборе</p>
+										<b>Стоимость по запросу</b>
+										<a class="btn_animate2" href="#">
+											Подробнее →
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="placesec_mainpage_content_showmore btn_animate2" href="#">
+							Все апартаменты →
+						</a>
+					</div>		
+				</div>
+			</div>
+		</section>
+
+		<section class="advantagessec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="advantagessec_mainpage_content">
+						<div class="advantagessec_mainpage_content_header">
+							<h2>Больше отдыха. <br> Меньше повседневных забот.</h2>
+						</div>
+						<div class="advantagessec_mainpage_content_title">
+							<div class="advantagessec_mainpage_content_title_leftpart">
+								<img src="img/advantagessec_mainpage_content_title_leftpart_img.png" alt="">
+								<p>Garden · Севастополь, ул. Лётчиков, 10</p>
+							</div>
+							<div class="advantagessec_mainpage_content_title_rightpart">
+								<div class="advantagessec_mainpage_content_title_rightpart_item">
+									<b>100</b>
+									<div class="advantagessec_mainpage_content_title_rightpart_item_title">
+										<h3>Метров до пляжа</h3>
+										<p>Море рядом, каждый день.</p>
+									</div>
+								</div>
+								<div class="advantagessec_mainpage_content_title_rightpart_item">
+									<div class="advantagessec_mainpage_content_title_rightpart_item_title">
+										<h3>Отдых в своём ритме</h3>
+										<p>Семейная поездка, несколько дней вдвоём или работа у моря.</p>
+									</div>
+								</div>
+								<div class="advantagessec_mainpage_content_title_rightpart_item">
+									<div class="advantagessec_mainpage_content_title_rightpart_item_title">
+										<h3>Всё нужное рядом</h3>
+										<p>Кафе, супермаркеты и салоны красоты на территории и поблизости.</p>
+									</div>
+								</div>
+								<div class="advantagessec_mainpage_content_title_rightpart_item">
+									<div class="advantagessec_mainpage_content_title_rightpart_item_title">
+										<h3>Время для себя</h3>
+										<p>Бассейн и SPA: условия посещения уточним перед поездкой.</p>
+									</div>
+								</div>
+								<div class="advantagessec_mainpage_content_title_rightpart_item">
+									<div class="advantagessec_mainpage_content_title_rightpart_item_title">
+										<h3>Поможем с выбором</h3>
+										<p>Подбор по датам, составу гостей и вашим пожеланиям.</p>
+									</div>
+								</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="plansec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="plansec_mainpage_content">
+						<div class="plansec_mainpage_content_header">
+							<h2>Какой отдых вы планируете?</h2>
+						</div>
+						<div class="advantagessec_mainpage_content_list">
+							<a class="advantagessec_mainpage_content_list_item" href="#">
+								<img src="img/plansec_mainpage_content_list_item_1.png" alt="">
+								<h3>Для семьи с детьми</h3>
+							</a>
+							<a class="advantagessec_mainpage_content_list_item" href="#">
+								<img src="img/plansec_mainpage_content_list_item_2.png" alt="">
+								<h3>Для пары</h3>
+							</a>
+							<a class="advantagessec_mainpage_content_list_item" href="#">
+								<img src="img/plansec_mainpage_content_list_item_3.png" alt="">
+								<h3>Для командировки</h3>
+							</a>
+							<a class="advantagessec_mainpage_content_list_item" href="#">
+								<img src="img/plansec_mainpage_content_list_item_4.png" alt="">
+								<h3>Для длительного<br>проживания</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="restsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="restsec_mainpage_content">
+						<h2>Отдых, где всё уже рядом</h2>
+						<div class="restsec_mainpage_content_list">
+							<a class="restsec_mainpage_content_list_item" href="img/restsec_mainpage_content_list_item_1.png" data-fancybox="gallery">
+								<img src="img/restsec_mainpage_content_list_item_1.png" alt="">
+							</a>
+							<a class="restsec_mainpage_content_list_item" href="img/restsec_mainpage_content_list_item_2.png" data-fancybox="gallery">
+								<img src="img/restsec_mainpage_content_list_item_2.png" alt="">
+							</a>
+							<a class="restsec_mainpage_content_list_item" href="img/restsec_mainpage_content_list_item_3.png" data-fancybox="gallery">
+								<img src="img/restsec_mainpage_content_list_item_3.png" alt="">
+							</a>
+							<a class="restsec_mainpage_content_list_item" href="img/restsec_mainpage_content_list_item_4.png" data-fancybox="gallery">
+								<img src="img/restsec_mainpage_content_list_item_4.png" alt="">
+							</a>
+							<a class="restsec_mainpage_content_list_item" href="img/restsec_mainpage_content_list_item_5.png" data-fancybox="gallery">
+								<img src="img/restsec_mainpage_content_list_item_5.png" alt="">
+							</a>
+						</div>
+						<p class="restsec_mainpage_content_title">Фото и визуализации из архива клиента. Услуги и условия доступа требуют подтверждения.</p>
+						<a class="restsec_mainpage_content_morebtn btn_animate2" href="#">
+							Подробнее об инфраструктуре →
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mapsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="mapsec_mainpage_content">
+						<div class="mapsec_mainpage_content_header">
+							<h2>Море и город рядом</h2>
+							<h3>Карта и инфраструктура</h3>
+						</div>
+						<div class="mapsec_mainpage_content_map" id="map">
+							
+						</div>
+						<div class="mapsec_mainpage_content_title">
+							<p>На территории: салоны красоты, прогулочные пространства.</p>
+							<p>Рядом: кафе и рестораны, супермаркеты, кинотеатры, доставка.</p>
+						</div>
+						<a class="mapsec_mainpage_content_openmap btn_animate" href="#">
+							Открыть карту и маршрут
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="imaginesec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="imaginesec_mainpage_content">
+						<div class="imaginesec_mainpage_content_header">
+							<h2>Представьте свой отдых здесь</h2>
+						</div>
+						<div class="imaginesec_mainpage_content_list">
+							<a href="#" class="imaginesec_mainpage_content_list_item">
+								<img src="img/imaginesec_mainpage_content_list_item_1.png" alt="">
+							</a>
+							<a href="#" class="imaginesec_mainpage_content_list_item">
+								<img src="img/imaginesec_mainpage_content_list_item_2.png" alt="">
+							</a>
+							<a href="#" class="imaginesec_mainpage_content_list_item">
+								<img src="img/imaginesec_mainpage_content_list_item_3.png" alt="">
+							</a>
+							<a href="#" class="imaginesec_mainpage_content_list_item">
+								<img src="img/imaginesec_mainpage_content_list_item_1.png" alt="">
+							</a>
+						</div>
+						<div class="imaginesec_mainpage_content_title">
+							<p>7 фотографий комплекса из архива клиента.</p>
+							<p>Листайте галерею вправо →</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="stepssec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="stepssec_mainpage_content">
+						<div class="stepssec_mainpage_content_header">
+							<h2>Представьте свой отдых здесь</h2>
+						</div>
+						<div class="stepssec_mainpage_content_list">
+							<div class="stepssec_mainpage_content_list_item">
+								<b>01</b>
+								<h3>Выберите апартаменты</h3>
+								<p>Найдите подходящий вариант.</p>
+							</div>
+							<div class="stepssec_mainpage_content_list_item">
+								<b>02</b>
+								<h3>Укажите даты</h3>
+								<p>И количество гостей.</p>
+							</div>
+							<div class="stepssec_mainpage_content_list_item">
+								<b>03</b>
+								<h3>Получите подтверждение</h3>
+								<p>Уточните стоимость и условия.</p>
+							</div>
+							<div class="stepssec_mainpage_content_list_item">
+								<b>04</b>
+								<h3>Заселяйтесь и отдыхайте</h3>
+								<p>Получите инструкции к приезду.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefitsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="benefitsec_mainpage_content">
+						<div class="benefitsec_mainpage_content_header">
+							<h2>Полезно перед поездкой</h2>
+						</div>
+						<div class="benefitsec_mainpage_content_list">
+							<div class="benefitsec_mainpage_content_list_item">
+								<img src="img/benefitsec_mainpage_content_list_item_1.png" alt="">
+								<h3>Отдых с детьми: что уточнить заранее</h3>
+								<p>Вместимость, спальные места и бытовые детали для семейной поездки.</p>
+								<a class="btn_animate2" href="#">
+									Читать статью
+								</a>
+							</div>
+							<div class="benefitsec_mainpage_content_list_item">
+								<img src="img/benefitsec_mainpage_content_list_item_2.png" alt="">
+								<h3>Перед поездкой: короткий чек-лист</h3>
+								<p>Подтверждение дат, дорога, документы и связь с отделом аренды.</p>
+								<a class="btn_animate2" href="#">
+									Читать статью
+								</a>
+							</div>
+							<div class="benefitsec_mainpage_content_list_item">
+								<img src="img/benefitsec_mainpage_content_list_item_3.png" alt="">
+								<h3>Бассейн и SPA: что проверить</h3>
+								<p>Доступ, сезонность и дополнительные услуги в даты вашего отдыха.</p>
+								<a class="btn_animate2" href="#">
+									Читать статью
+								</a>
+							</div>
+						</div>
+						<a class="benefitsec_mainpage_content_loadmore btn_animate" href="#">
+							Все статьи →
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="questionssec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="questionssec_mainpage_content">
+						<div class="questionssec_mainpage_content_header">
+							<h2>Перед поездкой</h2>
+						</div>
+						<div class="questionssec_mainpage_content_faq">
+						    <details class="faq__item">
+						        <summary class="faq__question">Как происходит бронирование?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						                Ответ 1
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Нужна ли предоплата?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						                Ответ 2
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Во сколько заезд и выезд?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						               Ответ 3
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Можно ли с детьми?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						                Ответ 4
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Можно ли с животными?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						                Возможность размещения с животными уточняйте при бронировании.
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Есть ли парковка?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						               Ответ 5
+						            </div>
+						        </div>
+						    </details>
+						    <details class="faq__item">
+						        <summary class="faq__question">Что входит в стоимость?</summary>
+						        <div class="faq__answer">
+						            <div class="faq__answer-inner">
+						               Ответ 6
+						            </div>
+						        </div>
+						    </details>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="selectapartmentsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="selectapartmentsec_mainpage_content">
+						<div class="selectapartmentsec_mainpage_content_header">
+							<h2>Ваш отдых начинается здесь</h2>
+						</div>
+						<a class="btn_animate" href="#">
+							Выбрать апартаменты
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+			<div class="full_container">
+				<div class="main__container">
+					<div class="footer_content">
+						<a class="footer_content_logo" href="index.html">
+							<img src="img/footer_content_logo.svg" alt="">
+						</a>
+						<b>Апартаменты для отдыха в Севастополе</b>
+						<nav class="footer_content_nav">
+							<ul class="footer_content_nav_list">
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Апартаменты
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Инфраструктура
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Условия проживания
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										О нас
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Статьи
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Акции и скидки
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Контакты
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="#">
+										Как добраться
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="footer_content_title">
+							<p>Севастополь, ул. Лётчиков, 10</p>
+							<p>Связаться с отделом аренды — через заявку</p>
+						</div>
+						<div class="footer_content_policy">
+							<a href="#">
+								Политика конфиденциальности  
+							</a>
+							<p>·</p>
+							<a href="#">
+								Согласие на обработку данных
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-3.6.2.min.js"></script>
+	 	<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/main.js"></script> 
+	
+</body>
+</html>
+
+
+
+
+
+
+

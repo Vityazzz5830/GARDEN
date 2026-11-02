@@ -1,0 +1,3072 @@
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+/*=================ГЛАВНАЯ СТРАНИЦА===============*/
+
+.burger {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.burger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.header_content_contacts {
+  column-gap: 20px;
+}
+
+.header_content_navlist_list {
+  column-gap: 40px;
+}
+
+.firstsec_mainpage_content {
+  max-width: 1000px;
+}
+
+.stepssec_mainpage_content {
+  max-width: 1000px;
+}
+
+
+
+.formsec_mainpage {
+  max-width: unset;
+  width: calc(100vw - 40px);
+}
+
+.trustsec_mainpage_content_slider_container {
+  max-width: 1000px;
+}
+
+.trustsec_mainpage_content_slider_item img {
+  width: 100%;
+}
+
+.footer_content {
+  max-width: 1000px;
+}
+
+.footer_content_main_form {
+  max-width: 570px;
+}
+
+
+
+/*=================СТРАНИЦА БЛОГ ИТЕМ===============*/
+
+.breadcrumbs {
+  max-width: 1000px;
+}
+
+.firstsec_blogitempage_content {
+  max-width: 1000px;
+}
+
+.firstsec_blogitempage img {
+  max-width: 45vw;
+}
+
+.mainsec_blogitempage {
+  max-width: 1000px;
+}
+
+.othermaterialssec_blog_itempage {
+  max-width: 1000px;
+}
+
+.othermaterialssec_blogitempage_list_item {
+  max-width: 320px;
+}
+
+
+/*=================СТРАНИЦА БЛОГ===============*/
+
+.mainarticle_blogpage_content {
+  max-width: 1000px;
+}
+
+.othermaterialssec_blogpage_sec {
+  max-width: 1000px;
+}
+
+
+/*=================СТРАНИЦА СТАНКИ===============*/
+
+.processsec_machinetoolspage_content {
+  max-width: 1000px;
+}
+
+.solutionssec_machinetoolspage_content {
+  max-width: 1000px;
+}
+
+.solutionssec_machinetoolspage_content_list {
+  column-gap: 10px;
+}
+
+.solutionssec_machinetoolspage_content_list_item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.solutionssec_machinetoolspage_content_list_item h3 {
+  font-size: 1rem;
+}
+
+.solutionssec_machinetoolspage_content_list_item p {
+  font-size: 0.75rem;
+}
+
+
+/*----------------------СТРАНИЦА ПОЛИТИКА---------------------------*/
+
+.policysec_policypage_content{
+  max-width: 1000px;
+}
+
+
+/*----------------------СТРАНИЦА ПОДШИПНИКИ---------------------------*/
+
+
+.processsec_machinetoolspage_content_list {
+  column-gap: 20px;
+  row-gap: 25px;
+}
+
+.processsec_machinetoolspage_content_list_item:nth-child(1) > img:nth-child(2) {
+  width: 90%;
+}
+
+
+/*----------------------СТРАНИЦА ЗАПЧАСТИ---------------------------*/
+
+.directionssec_sparepartspage_content {
+  max-width: 1000px;
+}
+
+.whymksec_sparepartspage_content {
+  max-width: 1000px;
+}
+
+/*----------------------СТРАНИЦА РЕМОНТ---------------------------*/
+
+.stopsec_repairpage_content {
+  max-width: 1000px;
+}
+
+.appealsec_repairpage_content {
+  max-width: 1000px;
+}
+
+.importantsec_repairpage_content {
+  max-width: 1000px;
+}
+
+.consistssec_repairpage_content {
+  max-width: 1000px;
+}
+
+.nonepartsec_repairpage_content {
+  max-width: 1000px;
+}
+
+.worksec_repairpage_content {
+  max-width: 1000px;
+}
+
+.tasksec_machinetoolspage_content {
+  max-width: 1000px;
+}
+
+
+
+/*----------------------СТРАНИЦА КОНТАКТЫ---------------------------*/
+
+.firstsec_contactspage_content {
+  max-width: 1000px;
+}
+
+.linksec_contactspage_content {
+  max-width: 1000px;
+}
+
+.initialsec_contactspage_content {
+  max-width: 1000px;
+}
+
+
+
+/*----------------------СТРАНИЦА О НАС---------------------------*/
+
+.firstsec_aboutpage_content {
+  max-width: 1000px;
+}
+
+.fastsec_aboutpage_content {
+  max-width: 1000px;
+}
+
+.reliabilitysec_aboutpage_content {
+  max-width: 1000px;
+}
+
+
+
+/*----------------------СТРАНИЦА О НАС---------------------------*/
+
+.firstsec_suppliespage_content {
+  max-width: 1000px;
+}
+
+.practicesec_suppliespage_content {
+  max-width: 1000px;
+}
+
+.indicatorssec_suppliespage_content {
+  max-width: 1000px;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1199px) and (min-width: 320px){
+
+/*=================ГЛАВНАЯ СТРАНИЦА===============*/
+
+
+html {
+  scrollbar-gutter: auto;
+}
+
+.header_content_navlist {
+  display: none;
+}
+
+.header_content_contacts {
+  display: none;
+}
+
+
+.header_content_logo > img:nth-child(1) {
+  max-width: 136px;
+}
+
+.header_content_burger{
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.688rem;
+  color: #16191D;
+  line-height: 13px;
+  cursor: pointer;
+}
+
+
+/*===============БУРГЕР=================*/
+
+.popup {
+  position: fixed;
+  top: 0;
+  background: #0E1319;
+  right: -100%;
+  width: 100%;
+  height: calc(100vh - 86px);
+  z-index: 100;
+  display: flex;
+  transition: 0.6s;
+}
+
+.popup.open {
+  right: 0;
+  display: block;
+  z-index: 10000;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.header_content_burger{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  position: relative;
+  width: 40px;
+  height: 40px; 
+  background: transparent;
+  cursor: pointer;
+}
+
+.header_content_burger span {
+    position: absolute;
+    width: 46px;
+    height: 5px;
+    background: #16191D;
+    transition: all 0.3s ease;
+}
+
+.header_content_burger span:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+.header_content_burger span:nth-child(2) {
+    transform: translateY(0);
+}
+
+.header_content_burger span:nth-child(3) {
+    transform: translateY(10px);
+}
+
+.header_content_burger.active span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.header_content_burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.header_content_burger.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+
+.popup_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 15px;
+  background: #FFFFFF;
+  height: 58px;
+}
+
+.burger_content{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.burger_content_list_items{
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.burger_content_list_item{
+  border-bottom: 1px dotted #FFFFFF;
+}
+
+.burger_content_list_item a{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 19px;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.header_content_burger {
+  padding-right: 0px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header_content_contacts_button {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header_content_contacts_tel {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.firstsec_mainpage {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.firstsec_mainpage_content h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+  line-height: 44px;
+  max-width: 530px;
+}
+
+.firstsec_mainpage_content h1::before {
+}
+
+.firstsec_mainpage_content h1 > br {
+  display: none;
+}
+
+.firstsec_mainpage_content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.firstsec_mainpage_content b {
+  font-size: 0.938rem;
+  line-height: 21px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.firstsec_mainpage_content a {
+  font-size: 0.875rem;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  max-width: 100px;
+  line-height: 20px;
+  border-radius: 0;
+}
+
+.firstsec_mainpage_content > b:nth-child(2) > br:nth-child(1) {
+  display: none;
+}
+
+.firstsec_mainpage_content_list {
+  align-items: flex-start;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.firstsec_mainpage_content_list_item p {
+  font-size: 0.813rem;
+  line-height: 18px;
+}
+
+.firstsec_mainpage_content_list_item {
+  border: 0;
+  background: transparent;
+  padding-left: 0;
+}
+
+.btn-tech{
+  width: fit-content !important;
+  max-width: unset !important;
+}
+
+.firstsec_mainpage_content_btns{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 16px;
+}
+
+
+
+
+.catalogsec_mainpage {
+  margin-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.catalogsec_mainpage_content h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+}
+
+.catalogsec_mainpage_content h2::before {
+    content: "УСЛУГИ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.catalogsec_mainpage_content b {
+  font-size: 0.875rem;
+  color: #6E7785;
+  line-height: 19px;
+  margin-top: 16px;
+  max-width: unset;
+}
+
+ .catalogsec_mainpage_content_list_item img {
+  height: auto;
+  width: auto;
+  max-width: 78vw;
+}
+
+.catalogsec_mainpage_content_list_item {
+  border: 1px solid #D7DCE2;
+}
+
+.catalogsec_mainpage_content_list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogsec_mainpage_content_list_item_title img {
+  width: auto;
+  max-width: unset;
+  height: unset;
+}
+
+
+.catalogsec_mainpage_content_list_item_title p {
+  font-size: 0.813rem;
+  color: #6E7785;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.catalogsec_mainpage_content_list_item_title p::after {
+    content: "Подробнее ➜";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.813rem;
+    color: #0867F2;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+
+.catalogsec_mainpage_content_list_item h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #000000;
+  line-height: 25px;
+  order: 2;
+}
+
+.catalogsec_mainpage_content_list_item {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogsec_mainpage_content_list_item_title {
+  order: 3;
+}
+
+  .catalogsec_mainpage_content_list_item img {
+    order: 1;
+  }
+  .catalogsec_mainpage_content_list_item_title img {
+    display: none;
+  }
+
+
+.catalogsec_mainpage_content_title p {
+  display: none;
+}
+
+.catalogsec_mainpage_content_title {
+  margin-top: 16px;
+}
+
+.catalogsec_mainpage_content_title a {
+  font-size: 0.875rem;
+  border-radius: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 121px;
+  margin: unset;
+  line-height: 20px;
+  max-width: 140px;
+}
+
+
+
+
+
+
+.stepssec_mainpage_content {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.stepssec_mainpage {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 40px;
+}
+
+.stepssec_mainpage_content h2 {
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 36px;
+}
+
+.stepssec_mainpage_content_list_item {
+  height: unset;
+  padding-top: 13px;
+}
+
+.stepssec_mainpage_content_list_item b {
+  font-size: 1.875rem;
+  line-height: 36px;
+}
+
+.stepssec_mainpage_content_list_item h3 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+
+.stepssec_mainpage_content_list_item p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+
+
+.stepssec_mainpage_content_list_item > img:nth-child(1) {
+  max-height: 18px;
+  max-width: 15px;
+}
+
+.stepssec_mainpage_content_list {
+  align-items: flex-start;
+  row-gap: 32px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stepssec_mainpage_content_list_item > p > br:nth-child(1) {
+  display: none;
+}
+
+.stepssec_mainpage_content_button{
+  font-size: 0.875rem;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: unset;
+  line-height: 20px;
+  margin-top: 32px;
+  max-width: 450px;
+  width: calc(100vw - 78px);
+  border-radius: 4px;
+}
+
+.stepssec_mainpage_content_list_item:nth-child(1) > p:nth-child(2) {
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
+.trustsec_mainpage {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.trustsec_mainpage_content_slider_container h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.trustsec_mainpage_content_slider_container h2::before {
+
+}
+
+
+.trustsec_mainpage_content_slider {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.trustsec_mainpage_content_slider_item img {
+  order: 1;
+}
+
+.trustsec_mainpage_content_slider_item {
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 303px !important;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #D7DCE2;
+  width: auto;
+  margin-right: 0;
+  height: auto !important;
+  max-width: unset;
+}
+
+.trustsec_mainpage_content_slider_item:nth-child(n+4) {
+  display: none;
+}
+
+.trustsec_mainpage_content_slider_item h3 {
+  order: 2;
+  font-size: 1.125rem;
+  line-height: 25px;
+  color: #16191D;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.trustsec_mainpage_content_slider_item b {
+  display: none;
+}
+
+
+.trustsec_mainpage_content_slider_item p {
+  display: none;
+}
+
+
+
+.trustsec_mainpage_content_slider_buttons {
+  display: none;
+}
+
+
+
+.deliverysec_mainpage {
+  padding-top: 40px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background: #F2F6FC;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.deliverysec_mainpage_content_header h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+
+.deliverysec_mainpage_content_header h2::before {
+    content: "СОПРОВОЖДЕНИЕ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.deliverysec_mainpage_content_header p {
+  font-size: 0.938rem;
+  color: #6E7785;
+  line-height: 21px;
+  margin-top: 16px;
+  color: #6E7785;
+}
+
+.deliverysec_mainpage_content_title {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.deliverysec_mainpage_content_title_warranty {
+  display: none;
+}
+
+.deliverysec_mainpage_content_title_consult {
+  display: none;
+}
+
+.deliverysec_mainpage_content_title_rightpart h3 {
+  display: none;
+}
+
+.deliverysec_mainpage_content_title_rightpart {
+  margin-top: 0;
+}
+
+.deliverysec_mainpage_content_title_leftpart {
+  display: none;
+}
+
+.deliverysec_mainpage_content_title_rightpart_list {
+  margin-top: 5px;
+}
+
+.deliverysec_mainpage_content_title_rightpart_list_item p {
+  font-size: 0.875rem;
+  line-height: 19px;
+}
+
+.deliverysec_mainpage_content_title_rightpart_list_item {
+  align-items: center;
+}
+
+.deliverysec_mainpage_content_title_rightpart_list_item > img:nth-child(2) {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+.aboutussec_mainpage_content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 40px;
+}
+
+.aboutussec_mainpage_content_title_mobile{
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.aboutussec_mainpage_content_title_mobile h2{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  color: #FFFFFF;
+  line-height: 36px;
+}
+
+.aboutussec_mainpage_content_title_mobile p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  color: #FFFFFF;
+  line-height: 21px;
+}
+
+
+
+
+
+
+
+.aboutussec_mainpage_content_title > h2:nth-child(1) {
+  display: none;
+}
+
+.aboutussec_mainpage_content_title_info {
+  display: none;
+}
+
+
+.aboutussec_mainpage_content_title_choicelist {
+  display: none;
+}
+
+
+  .aboutussec_mainpage_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.aboutussec_mainpage_content_total_item {
+  padding-bottom: 2px;
+  border: 0;
+}
+
+.aboutussec_mainpage_content_total {
+  padding-top: 2px;
+}
+
+.aboutussec_mainpage_content_title h2 {
+  margin-bottom: 0;
+}
+
+
+.aboutussec_mainpage_content_title h2::before {
+    content: "О КОМПАНИИ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.aboutussec_mainpage_content_title_link {
+  display: none;
+}
+
+.aboutussec_mainpage {
+  background-position: right;
+  background: url(../img/aboutus_background_mob.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right;
+  border-radius: 0;
+}
+
+
+
+
+
+
+.formsec_mainpage {
+  margin-top: 0;
+  border: 0;
+  padding-top: 40px;
+  background: #F2F6FC;
+}
+
+.formsec_mainpage_content {
+  padding-top: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  flex-direction: column;
+}
+
+.formsec_mainpage_content_form h3 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+
+.formsec_mainpage_content_form h3::before {
+    content: "НУЖНА ПОСТАВКА?";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+
+.formsec_mainpage_content_form p {
+  margin-bottom: 16px;
+  font-size: 0.938rem;
+  color: #6E7785;
+  line-height: 19px;
+  margin-top: 16px;
+}
+
+.formsec_mainpage_content_form input {
+  font-size: 0.813rem;
+  line-height: 18px;
+  padding-top: 14px;
+  width: auto;
+  background: #FFFFFF;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  border: 1px solid #D7DCE2;
+}
+
+.formsec_mainpage_content_form > input {
+  margin-top: 16px;
+}
+
+
+ .formsec_mainpage_content_form button {
+    font-size: 0.875rem;
+    border-radius: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 151px;
+    margin: unset;
+    margin-top: unset;
+    line-height: 20px;
+    margin-top: 19px;
+    letter-spacing: 0;
+  }
+
+
+.formsec_mainpage_content_form_policy {
+  display: none;
+}
+
+.formsec_mainpage_content > img:nth-child(2) {
+  margin-top: 16px;
+}
+
+.formsec_mainpage_content > img:nth-child(2) {
+  display: none;
+}
+
+.formsec_mainpage_content_form_mobileimg{
+  display: flex;
+  width: 100%;
+}
+
+.formsec_mainpage_content_form button {
+  margin-top: 16px;
+}
+
+
+
+
+
+
+footer {
+  background: #111820;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.formsec_mainpage {
+  margin-bottom: 0;
+}
+
+.footer_content {
+  padding-top: 16px;
+}
+
+.footer_content_main_form_container {
+  display: none;
+}
+
+.footer_content_main_map {
+  display: none;
+}
+
+.footer_content h2 {
+  display: none;
+}
+
+.footer_content b {
+  display: none;
+}
+
+.footer_content_downpart {
+  flex-direction: column;
+}
+
+.footer_content_downpart_logoandinfo p {
+  margin-top: 7px;
+}
+
+.footer_content_downpart_contacts_order {
+  display: none;
+}
+
+.footer_content_main{
+  margin-bottom: 0;
+}
+
+.footer_content_downpart_policy > a:nth-child(2) {
+  display: none;
+}
+
+.footer_content_downpart_policy > a:nth-child(3) {
+  display: none;
+}
+
+.footer_content_downpart_policy {
+  margin-top: 191px;
+}
+
+.footer_content_downpart_contacts_order p {
+  display: none;
+}
+
+
+
+
+  .footer_content_downpart_logoandinfo > p:nth-child(3) {
+    display: block;
+  }
+
+  .footer_content_downpart_logoandinfo p {
+    display: block;
+  }
+
+.footer_content_downpart_logoandinfo p {
+  font-size: 0.813rem;
+  line-height: 16px;
+  color: #C4CFDB;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_content_downpart_contacts_navlist {
+  margin-top: 0;
+}
+
+  .footer_content_downpart_contacts_order {
+    display: flex;
+    order: 2;
+  }
+
+.footer_content_downpart_contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 51px;
+}
+
+.footer_content_downpart_logoandinfo > a:nth-child(1) > img:nth-child(1) {
+  max-width: 150px;
+}
+
+.footer_content_downpart_logoandinfo a {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.footer_content_downpart_logoandinfo_fixmobile{
+  display: flex !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.813rem !important;
+  color: #C4CFDB !important;
+  line-height: 16px !important;
+  margin-bottom: 0;
+}
+
+
+.footer_content {
+  padding-bottom: 39px;
+}
+
+
+
+/*=================ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ===============*/
+
+.policysec_policypage_content h2 {
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+
+.policysec_policypage_content h3 {
+  font-size: 1.125rem;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.policysec_policypage_content p {
+  font-size: 0.875rem;
+  line-height: 21px;
+}
+
+.policysec_policypage_content {
+  margin-top: 30px;
+}
+
+.policysec_policypage_content ul {
+  font-size: 0.875rem;
+  line-height: 21px;
+}
+
+.policysec_policypage_content ul > li {
+  font-size: 0.875rem;
+  line-height: 21px;
+}
+
+.policysec_policypage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/*=================БЛОГ СТАТЬЯ===============*/
+
+.breadcrumbs {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.breadcrumbs a {
+  font-size: 0.75rem;
+}
+
+.breadcrumbs p {
+  font-size: 0.75rem;
+}
+
+.firstsec_blogitempage {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstsec_blogitempage_content_title {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.firstsec_blogitempage_content_title h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.875rem;
+  line-height: 37px;
+}
+
+.firstsec_blogitempage_content_title p {
+  font-size: 0.75rem;
+  line-height: 22px;
+}
+
+
+.firstsec_blogitempage img {
+  position: unset;
+  width: calc(100vw - 48px);
+  max-width: unset;
+  height: 184px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.firstsec_blogitempage_content {
+  min-height: unset;
+}
+
+.mainsec_blogitempage_content_contents {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: calc(100vw - 96px);
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.mainsec_blogitempage_content_main {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.mainsec_blogitempage_content_contents b {
+  line-height: 18px;
+}
+
+.mainsec_blogitempage_content_contents_list_item {
+  align-items: flex-start;
+}
+
+.mainsec_blogitempage_content_main p {
+  font-size: 1rem;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.mainsec_blogitempage_content_main h3 {
+  font-size: 1.563rem;
+  line-height: 33px;
+}
+
+.mainsec_blogitempage_content_main ul {
+  font-size: 1rem;
+  line-height: 27px;
+}
+
+.mainsec_blogitempage_content_main ul > li {
+  font-size: 1rem;
+  line-height: 27px;
+  margin-top: 2px;
+}
+
+  .mainsec_blogitempage_content_main p {
+    margin-bottom: 20px;
+  }
+
+.mainsec_blogitempage_content_main h3 {
+  margin-top: 0;
+  padding-top: 12px;
+}
+
+.mainsec_blogitempage_content_main h4 {
+  font-size: 1.313rem;
+  line-height: 20px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+
+.mainsec_blogitempage_content_main {
+  padding-bottom: 4px;
+}
+
+.othermaterialssec_blogitempage_list {
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.othermaterialssec_blog_itempage {
+  padding-top: 24px;
+}
+
+.othermaterialssec_blogitempage h2 {
+  font-size: 1.625rem;
+  line-height: 34px;
+}
+
+.othermaterialssec_blogitempage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.othermaterialssec_blogitempage_list_item {
+  padding: 16px;
+  width: calc(100vw - 48px - 32px);
+}
+
+.othermaterialssec_blogitempage_list_item_title {
+  row-gap: 10px;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.othermaterialssec_blogitempage_list_item > img:nth-child(1) {
+  height: 145px;
+}
+
+.othermaterialssec_blogitempage_list_item_title_uppart h3 {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.othermaterialssec_blogitempage_list_item_title_downpart a {
+  margin-top: 10px;
+}
+
+.othermaterialssec_blogitempage_list {
+  margin-bottom: 24px;
+}
+
+.othermaterialssec_blogitempage_list_item {
+  max-width: unset;
+}
+
+  .othermaterialssec_blogitempage_list_item > img:nth-child(1) {
+    height: 39vw;
+    max-height: 300px;
+  }
+
+
+.firstsec_blogitempage_content_title b {
+  font-size: 0.688rem;
+  line-height: 15px;
+}
+
+
+
+/*=================БЛОГ===============*/
+
+ .firstsec_blogpage_content_title_fix {
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+
+   .firstsec_blogpage_content_title_fix h1{
+    padding-top: 30px;
+    padding-bottom: 24px;
+    margin-top: 0;
+  }
+
+.firstsec_blogpage img {
+  display: none;
+}
+
+
+.firstsec_blogpage{
+  background: url(../img/firstsec_background_blogpage_mob.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainarticle_blogpage_content {
+  margin-top: 40px;
+}
+
+.mainarticle_blogpage_list_item {
+  flex-direction: column;
+}
+
+.mainarticle_blogpage_list_item > img:nth-child(1) {
+  max-width: unset;
+  margin-left: unset;
+  order: 2;
+}
+
+.mainarticle_blogpage {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  background: #F2F6FC;
+}
+
+.mainarticle_blogpage_list_item_title_uppart {
+  order: 1;
+}
+
+.mainarticle_blogpage_list_item_title_downpart {
+  order: 3;
+}
+
+.mainarticle_blogpage_list_item_title_uppart h3 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  -webkit-line-clamp: 4;
+}
+
+.mainarticle_blogpage_list_item_title_downpart p {
+  font-size: 0.875rem;
+  line-height: 19px;
+}
+
+.mainarticle_blogpage_list_item_title_downpart a {
+  font-size: 0.875rem;
+  line-height: 19px;
+}
+
+.mainarticle_blogpage_list_item_title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mainarticle_blogpage_list_item {
+  border: 0;
+}
+
+  .mainarticle_blogpage_content {
+    width: calc(100vw - 48px);
+    margin: 0;
+    margin-top: 0;
+  }
+
+.othermaterialssec_blogpage_sec {
+  padding-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.othermaterialssec_blogpage h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  letter-spacing: -;
+  margin-bottom: 16px;
+}
+
+.othermaterialssec_blogpage_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.othermaterialssec_blogpage {
+  width: calc(100vw - 48px);
+}
+
+.othermaterialssec_blogpage_list_item {
+  padding: 16px;
+}
+
+.othermaterialssec_blogpage_list_item_title {
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  row-gap: 10px;
+}
+
+.othermaterialssec_blogpage_list_item > img:nth-child(1) {
+  height: 145px;
+}
+
+.othermaterialssec_blogpage_list_item_title_uppart h3 {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.othermaterialssec_blogpage_list_item_title_downpart a {
+  margin-top: 10px;
+}
+
+  .othermaterialssec_blogpage {
+    width: calc(100vw - 48px - 32px);
+  }
+
+  .othermaterialssec_blogpage_list {
+    width: calc(100vw - 48px - 32px);
+  }
+  .othermaterialssec_blogpage_list_item {
+    width: calc(100vw - 48px - 32px);
+    max-width: unset;
+  }
+
+
+.othermaterialssec_blogpage_list {
+  row-gap: 16px;
+}
+
+.othermaterialssec_blogpage_list_item_title_downpart p {
+  height: auto;
+}
+
+.othermaterialssec_blogpage_list_item_title_uppart h3 {
+  height: auto;
+}
+
+
+  .firstsec_blogpage_content_title_fix h1 {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .firstsec_blogitempage_content_title p {
+    font-size: 0.938rem;
+    line-height: 21px;
+  }
+
+
+
+/*=================СПАСИБО ЗА ЗАЯВКУ===============*/
+
+.thankyousec_mainpage_content h1 {
+  font-size: 1.625rem;
+  line-height: 32px;
+}
+
+.thankyousec_mainpage_content p {
+  font-size: 0.938rem;
+  line-height: 22px;
+}
+
+.thankyousec_mainpage_content {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.thankyousec_mainpage_content a {
+  max-width: 300px;
+  width: calc(100vw - 148px);
+}
+
+.thankyousec_mainpage {
+  padding-top: 56px;
+  height: calc(100vh - 82px);
+}
+
+.header_content_thankyou {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+/*=================МОДАЛКА ЗАЯВКА===============*/
+
+.order-modal__content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 62px;
+  padding-bottom: 24px;
+}
+
+.order-modal__close {
+  top: 24px;
+  right: 24px;
+}
+
+.order-modal__content h2 {
+  font-size: 1.625rem;
+  line-height: 32px;
+}
+
+.order-modal__description {
+  font-size: 0.938rem;
+  line-height: 22px;
+}
+
+.order-modal__description > br:nth-child(1) {
+  display: none;
+}
+
+.machine-modal {
+  align-items: unset;
+}
+
+.machine-modal__window {
+  height: fit-content;
+}
+
+
+/*=================КОНТАКТЫ===============*/
+
+.firstsec_contactspage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.firstsec_contactspage_content {
+  padding-top: 37px;
+  flex-direction: column;
+}
+
+.firstsec_contactspage_content_leftpart b {
+  font-size: 0.688rem;
+  line-height: 14px;
+}
+
+.firstsec_contactspage_content_leftpart h1 {
+  font-size: 2.25rem;
+  line-height: 40px;
+}
+
+.firstsec_contactspage_content_rightpart_linewhite {
+  display: none;
+}
+
+.linksec_contactspage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.linksec_contactspage_content_list {
+  margin-top: 34px;
+  padding-bottom: 44px;
+  border-bottom: 0;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.linksec_contactspage_content {
+  padding-top: 38px;
+  padding-bottom: 0;
+}
+
+.linksec_contactspage_content h2 {
+  font-size: 1.813rem;
+  line-height: 34px;
+  max-width: 260px;
+  font-weight: 700;
+}
+
+.initialsec_contactspage_content {
+  padding-top: 42px;
+  padding-bottom: 34px;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+}
+
+.initialsec_contactspage_content_leftpart h2 {
+  font-size: 1.688rem;
+  line-height: 32px;
+}
+
+.initialsec_contactspage_content_leftpart b {
+  font-size: 0.688rem;
+  line-height: 14px;
+}
+
+.initialsec_contactspage_content_rightpart_item_line {
+  display: none;
+}
+
+.initialsec_contactspage_content_rightpart_item_title {
+  margin-left: 0;
+}
+
+.firstsec_contactspage_content_leftpart > h1:nth-child(2) > br:nth-child(1) {
+  display: none;
+}
+
+.firstsec_contactspage_content_rightpart_title_item:nth-child(2) {
+  display: none;
+}
+
+.linksec_contactspage_content > p:nth-child(3) {
+  display: none;
+}
+
+.initialsec_contactspage_content_rightpart_item:nth-child(1) {
+  display: none;
+}
+
+.initialsec_contactspage_content_rightpart_item:nth-child(2) > div:nth-child(2) > b:nth-child(1) {
+  display: none;
+}
+
+.initialsec_contactspage_content_rightpart_item:nth-child(2) > div:nth-child(2) > h3:nth-child(2) {
+  display: none;
+}
+
+.initialsec_contactspage_content_rightpart_item:nth-child(2) > div:nth-child(2) > p:nth-child(3) {
+  display: none;
+}
+
+.firstsec_contactspage_content_leftpart p {
+  font-size: 0.938rem;
+  line-height: 21px;
+  margin-top: 12px;
+  max-width: 70vw;
+}
+
+.firstsec_contactspage_content_leftpart a {
+  font-size: 0.813rem;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  max-width: 111px;
+  margin-top: 30px;
+}
+
+.firstsec_contactspage_content_rightpart {
+  align-items: unset;
+  margin-top: 29px;
+  padding-left: 19px;
+}
+
+.firstsec_contactspage_content_rightpart_title {
+  margin-left: 0;
+}
+
+.firstsec_contactspage_content {
+  padding-bottom: 53px;
+}
+
+.firstsec_contactspage_content_rightpart_title_item:nth-child(1) b {
+  font-size: 0.688rem;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.firstsec_contactspage_content_rightpart_title a {
+  font-size: 1.188rem;
+  line-height: 23px;
+  margin-top: 7px;
+}
+
+.firstsec_contactspage_content_leftpart h1 {
+  margin-top: 17px;
+}
+
+.firstsec_contactspage_content_rightpart_title_item:nth-child(3) {
+  display: none;
+}
+
+  .firstsec_contactspage_content_rightpart_lineblue {
+    display: none;
+  }
+
+  .firstsec_contactspage_content {
+    padding-left: 14px;
+  }
+
+.linksec_contactspage_content_list_item {
+  padding: 16px;
+  width: auto;
+  height: 78px;
+}
+
+.linksec_contactspage_content_list_item b {
+  font-size: 0.688rem;
+  line-height: 14px;
+}
+
+.linksec_contactspage_content_list_item a {
+  font-size: 1rem;
+  line-height: 20px;
+  margin-top: 9px;
+}
+
+.linksec_contactspage_content_list_item p {
+  font-size: 0.75rem;
+  line-height: 16px;
+  margin-top: 9px;
+}
+
+  .initialsec_contactspage_content {
+    width: calc(100vw - 48px);
+  }
+
+.initialsec_contactspage_content_leftpart p {
+  margin-top: 26px;
+  font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.initialsec_contactspage_content_rightpart_item_title a {
+  margin-top: 26px;
+}
+
+.firstsec_contactspage_content_leftpart {
+  border-left: 4px solid #0667F2;
+  padding-left: 14px;
+}
+
+
+
+
+
+/*=================О НАС===============*/
+
+.firstsec_aboutpage_content_leftpart_title b {
+  font-size: 0.688rem;
+  line-height: 14px;
+}
+
+.firstsec_aboutpage_content_leftpart_title h1 {
+  font-size: 2.125rem;
+  line-height: 38px;
+}
+
+.firstsec_aboutpage_content_leftpart_title p {
+  font-size: 0.938rem;
+  line-height: 21px;
+  margin-top: 12px;
+  max-width: 70vw;
+}
+
+.firstsec_aboutpage_content {
+  padding-top: 36px;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.firstsec_aboutpage_content_rightpart_title b {
+  font-size: 0.875rem;
+  line-height: 18px;
+  color: #0667F2;
+}
+
+.firstsec_aboutpage_content_rightpart_title p {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 18px;
+  color: #0667F2;
+  text-transform: lowercase;
+}
+
+.firstsec_aboutpage_content_rightpart_title {
+  flex-direction: row;
+  margin-left: 25px;
+  column-gap: 5px;
+}
+
+.firstsec_aboutpage_content_rightpart_line {
+  display: none;
+}
+
+.firstsec_aboutpage_content_leftpart_title > h1:nth-child(2) > br:nth-child(1) {
+  display: none;
+}
+
+.firstsec_aboutpage_content_leftpart_title > h1:nth-child(2) > br:nth-child(2) {
+  display: none;
+}
+
+.firstsec_aboutpage_content_leftpart_line {
+  height: 183px;
+}
+
+.firstsec_aboutpage_content_leftpart {
+  align-items: flex-start;
+}
+
+.firstsec_aboutpage_content_leftpart_title h1 {
+  margin-top: 17px;
+}
+
+  .firstsec_aboutpage_content_leftpart_title p {
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+
+  .firstsec_aboutpage_content {
+    width: calc(100vw - 48px);
+    padding-bottom: 18px;
+  }
+
+.firstsec_aboutpage_content_rightpart_title {
+  margin-top: 22px;
+}
+
+.fastsec_aboutpage_content_list_item_mob{
+  display: flex !important;
+  flex-direction: column;
+}
+
+.fastsec_aboutpage_content_list_item{
+  display: none;
+}
+
+.fastsec_aboutpage_content_title {
+  flex-direction: column;
+}
+
+.fastsec_aboutpage_content {
+  padding-top: 36px;
+  padding-bottom: 42px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.fastsec_aboutpage_content_title_leftpart h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 33px;
+}
+
+.fastsec_aboutpage_content_title_leftpart h2::before {
+    content: "ЧЕМ ПОМОГАЕМ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 14px;
+  }
+
+.fastsec_aboutpage_content_title_leftpart p {
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin-top: 13px;
+}
+
+.fastsec_aboutpage_content_list {
+  margin-top: 26px;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.fastsec_aboutpage_content_title_rightpart p {
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.fastsec_aboutpage_content_list_item {
+  padding: 16px;
+  max-width: unset;
+  width: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.fastsec_aboutpage_content_list_item b {
+  font-size: 1.063rem;
+  line-height: 21px;
+}
+
+.fastsec_aboutpage_content_list_item p {
+  font-size: 0.75rem;
+  line-height: 16px;
+  margin-top: 13px;
+  font-weight: 400;
+}
+
+.fastsec_aboutpage_content_title_rightpart {
+  margin-top: 34px;
+}
+
+
+.fastsec_aboutpage_content_list_item {
+  height: 66px;
+}
+
+  .fastsec_aboutpage_content_list_item {
+    padding-bottom: 8px;
+  }
+
+
+.reliabilitysec_aboutpage_content {
+  padding-top: 38px;
+  padding-bottom: 71px;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.reliabilitysec_aboutpage_content_leftpart b {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.688rem;
+  color: #0867F2;
+  line-height: 15px;
+  margin-bottom: 14px;
+}
+
+.reliabilitysec_aboutpage_content_leftpart h2 {
+  margin-top: 14px;
+  font-size: 1.688rem;
+  line-height: 32px;
+}
+
+.reliabilitysec_aboutpage_content_leftpart p {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.reliabilitysec_aboutpage_content_leftpart a {
+  display: none;
+}
+
+.reliabilitysec_aboutpage_content_list {
+  margin-top: 33px;
+}
+
+.reliabilitysec_aboutpage_content_list_item p {
+  font-size: 0.813rem;
+  line-height: 18px;
+}
+
+.reliabilitysec_aboutpage_content_list_item b {
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
+.reliabilitysec_aboutpage_content_leftpart > p:nth-child(4) {
+  display: none;
+}
+
+
+
+/*=================ПОСТАВКИ===============*/
+
+.firstsec_suppliespage_content {
+  width: calc(100vw - 48px);
+  padding-bottom: 18px;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.firstsec_suppliespage_content_leftpart b {
+  font-size: 0.688rem;
+  line-height: 14px;
+}
+
+.firstsec_suppliespage_content_leftpart h1 {
+  margin-top: 30px;
+  font-size: 2.125rem;
+  line-height: 38px;
+}
+
+.firstsec_suppliespage_content_leftpart p {
+  margin-top: 30px;
+  font-size: 0.938rem;
+  line-height: 21px;
+}
+
+.firstsec_suppliespage_content_rightpart {
+  padding-top: 30px;
+}
+
+.firstsec_suppliespage_content_rightpart b {
+  font-size: 3rem;
+  line-height: 66px;
+}
+
+.firstsec_suppliespage_content_rightpart p {
+  font-size: 0.813rem;
+  line-height: 18px;
+  margin-top: 0px;
+  padding-left: 0;
+  text-transform: lowercase;
+}
+
+.firstsec_suppliespage_content_rightpart > p:nth-child(2) > br:nth-child(1) {
+  display: none;
+}
+
+
+.practicesec_suppliespage_content {
+  padding-top: 40px;
+  width: calc(100vw - 48px);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+
+}
+
+.practicesec_suppliespage_content_list_uppart {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.practicesec_suppliespage_content_list_downpart {
+  margin-top: 16px;
+  flex-direction: column;
+  display: flex;
+  row-gap: 16px;
+}
+
+.practicesec_suppliespage_content h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 33px;
+}
+
+.practicesec_suppliespage_content h2::before {
+    content: "КЕЙСЫ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+.practicesec_suppliespage_content p {
+  font-size: 0.875rem;
+  line-height: 19px;
+}
+
+.practicesec_suppliespage_content_list_item {
+  padding: 16px;
+}
+
+.practicesec_suppliespage_content_list_item_title {
+  padding: 0;
+  padding-top: 10px;
+}
+
+.practicesec_suppliespage_content_list_item_title b {
+  font-size: 0.75rem;
+  line-height: 17px;
+}
+
+.practicesec_suppliespage_content_list_item_title h3 {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.practicesec_suppliespage_content_list_item_title p {
+  font-size: 0.813rem;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.practicesec_suppliespage_content_list_item img {
+  height: 145px;
+  object-fit: cover;
+}
+
+
+
+.indicatorssec_suppliespage_content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #222426;
+}
+
+.indicatorssec_suppliespage_content_list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.indicatorssec_suppliespage_content h2 {
+  margin-top: 14px;
+  font-size: 1.688rem;
+  line-height: 32px;
+}
+
+.indicatorssec_suppliespage_content h2::before {
+    content: "ПОКАЗАТЕЛИ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+.indicatorssec_suppliespage_content_list_item b {
+  font-size: 1.5rem;
+  line-height: 33px;
+}
+
+.indicatorssec_suppliespage_content_list_item p {
+  font-size: 0.813rem;
+  line-height: 18px;
+}
+
+.indicatorssec_suppliespage_content_list_item {
+  row-gap: 6px;
+}
+
+
+
+
+/*=================СТАНКИ===============*/
+
+.firstsec_machinetoolspage {
+  width: calc(100vw - 48px);
+  min-height: unset;
+  background: url(../img/firstsec_machinetoolspage_background_mob.png);
+  background-size: cover;
+  background-position: center;
+}
+
+  .firstsec_machinetoolspage_content b {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+   .firstsec_machinetoolspage_content b > br {
+    display: none;
+  }
+
+  .firstsec_machinetoolspage_content h1::before {
+    display: none;
+  }
+
+.firstsec_machinetoolspage_content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.688rem;
+  color: #0867F2;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.firstsec_machinetoolspage_content a {
+  max-width: 111px;
+}
+
+
+.processsec_machinetoolspage_content h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+}
+
+.processsec_machinetoolspage_content h2::before {
+    content: "ПОДБОР ПОД ЗАДАЧУ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.processsec_machinetoolspage_content {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.processsec_machinetoolspage_content_list {
+  row-gap: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.processsec_machinetoolspage_content_list_item_title {
+  order: 2;
+}
+
+.processsec_machinetoolspage_content_list_item {
+  border: 1px solid #D7DCE2;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: unset;
+}
+
+.processsec_machinetoolspage_content_list_item_title h3 {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.processsec_machinetoolspage_content_list_item_title p {
+  margin-top: 10px;
+}
+
+.processsec_machinetoolspage_content_list_item_title a {
+  margin-top: 10px;
+}
+
+.processsec_machinetoolspage_content_list_item:nth-child(1) > img:nth-child(2) {
+  order: 1;
+  width: 100%;
+}
+
+  .processsec_machinetoolspage_content_list_item {
+    height: auto;
+    align-items: center;
+  }
+
+  .processsec_machinetoolspage_content_list_item > img:nth-child(2) {
+    height: 135px;
+    object-fit: contain;
+    max-width: 295px;
+  }
+
+
+.solutionssec_machinetoolspage_content {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.solutionssec_machinetoolspage_content h2 {
+  font-size: 1.625rem;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+
+  .solutionssec_machinetoolspage_content h2::before {
+    content: "РЕШЕНИЯ";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+.solutionssec_machinetoolspage_content p {
+  display: none;
+}
+
+.solutionssec_machinetoolspage_content_list {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.solutionssec_machinetoolspage_content_list_item {
+  flex-direction: row;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  height: unset;
+  background: transparent;
+  border: 0;
+  column-gap: 20px;
+}
+
+.solutionssec_machinetoolspage_content_list_item h3 {
+  font-size: 0.938rem;
+  margin-top: 0;
+}
+
+.solutionssec_machinetoolspage_content_list_item b {
+  line-height: 18px;
+}
+
+
+.stepssec_machinetoolspage {
+  margin-top: 0;
+}
+
+
+
+.tasksec_machinetoolspage {
+  background: #F2F6FC;
+}
+
+.tasksec_machinetoolspage_content_title h2 {
+  color: #16191D;
+  font-size: 1.625rem;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+
+  .tasksec_machinetoolspage_content_title h2::before {
+    content: "ЕСТЬ ТЕХНИЧЕСКАЯ ЗАДАЧА?";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+.tasksec_machinetoolspage_content {
+  padding-bottom: 0px;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  row-gap: 16px;
+  width: calc(100vw - 48px);
+}
+
+.tasksec_machinetoolspage_content_title_form_container_line {
+  display: none;
+}
+
+.tasksec_machinetoolspage_content_title_form {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+  background: unset;
+}
+
+.tasksec_machinetoolspage_content_title_form_form {
+  row-gap: 16px;
+}
+
+.tasksec_machinetoolspage_content_title_form_form h3 {
+  display: none;
+}
+
+.tasksec_machinetoolspage_content_title p {
+  font-size: 0.938rem;
+  line-height: 21px;
+}
+
+.tasksec_machinetoolspage_content_title_form_form input {
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 1px solid #D7DCE2;
+}
+
+.tasksec_machinetoolspage_content_title_form_form button {
+  margin-top: 0px;
+}
+
+
+
+/*=================ПОДШИПНИКИ===============*/
+
+.firstsec_bearingspage_content a {
+  max-width: 148px;
+}
+
+
+  .tasksec_bearingspage_content_title h2::before {
+    content: "НУЖЕН АНАЛОГ?";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+
+/*=================МОДАЛКА ТОВАР===============*/
+
+.machine-modal__content {
+  flex-direction: column;
+}
+
+.machine-modal__image img {
+  max-height: 190px;
+}
+
+.machine-modal__image {
+  min-height: unset;
+}
+
+.machine-modal__info h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.machine-modal__description {
+  margin-top: 12px;
+  font-size: 0.938rem;
+  line-height: 22px;
+}
+
+.machine-modal__info h3 {
+  margin-top: 12px;
+}
+
+.machine-modal__list {
+  margin-top: 12px;
+}
+
+.machine-modal.is-open {
+  overflow-y: scroll;
+}
+
+.machine-modal__buttons {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.machine-modal__submit {
+  max-width: unset;
+  order: 1;
+}
+
+.machine-modal__cancel {
+  order: 2;
+}
+
+.machine-modal__window {
+  padding: 20px;
+}
+
+.machine-modal__window {
+}
+
+.machine-modal:nth-child(2) > div:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+
+/*=================ЗАПЧАСТИ===============*/
+
+.directionssec_sparepartspage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.directionssec_sparepartspage_content h2 {
+  font-size: 1.75rem;
+  line-height: 36px;
+}
+
+.directionssec_sparepartspage_content p {
+  font-size: 0.875rem;
+  color: #6E7785;
+  line-height: 19px;
+  margin-top: 16px;
+}
+
+.directionssec_sparepartspage_content {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.directionssec_sparepartspage_content_list {
+  margin-top: 24px;
+  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.directionssec_sparepartspage_content_list_item h3 {
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+
+.directionssec_sparepartspage_content_list_item p {
+  font-size: 1.063rem;
+  line-height: 25px;
+}
+
+.directionssec_sparepartspage_content_list_item_container {
+  padding: 20px;
+}
+
+.directionssec_sparepartspage_dopbrands {
+  display: none;
+}
+
+
+
+
+.whymksec_sparepartspage_content {
+  padding-top: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.whymksec_sparepartspage_content h2 {
+  font-size: 1.75rem;
+  line-height: 36px;
+}
+
+.whymksec_sparepartspage_content_cards {
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.whymksec_sparepartspage_content_cards_item b {
+  font-size: 3rem !important;
+  line-height: 58px !important;
+}
+
+.whymksec_sparepartspage_content_cards_item h3 {
+  font-size: 1.5rem !important;
+  line-height: 32px !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.whymksec_sparepartspage_content_cards_item p {
+  font-size: 1.125rem !important;
+  line-height: 26px !important;
+}
+
+.whymksec_sparepartspage_content_cards_item {
+  padding: 24px !important;
+}
+
+.whymksec_sparepartspage_content_cards_item {
+  padding-bottom: 24px !important;
+}
+
+
+.directionssec_sparepartspage_content_list_item img {
+  object-fit: cover;
+}
+
+
+  .tasksec_sparepartspage_content_title h2::before {
+    content: "НЕ НАШЛИ НУЖНЫЙ БРЕНД?";
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.688rem;
+    color: #0867F2;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+
+
+
+
+
+/*=================РЕМОНТ===============*/
+
+.firstsec_repairpage_content a {
+  max-width: unset;
+  width: auto;
+}
+
+.firstsec_repairpage_content h1{
+  margin-top: 20px;
+}
+
+.firstsec_machinetoolspage_content p {
+  margin-bottom: 0;
+}
+
+.stopsec_repairpage_content {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.stopsec_repairpage_content_advantages {
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.stopsec_repairpage_content p {
+  font-size: 1rem;
+  line-height: 23px;
+}
+
+.stopsec_repairpage_content_advantages b {
+  font-size: 1.125rem;
+  line-height: 26px;
+  color: #16191D;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  background: unset;
+}
+
+.appealsec_repairpage_content_header h2 {
+  font-size: 1.75rem;
+  line-height: 41px;
+  max-width: 85vw;
+}
+
+.appealsec_repairpage_content_header p {
+  font-size: 0.875rem;
+  color: #6E7785;
+  line-height: 19px;
+  margin-top: 24px;
+}
+
+.appealsec_repairpage_content_main {
+  flex-direction: column;
+}
+
+.appealsec_repairpage_content {
+  padding-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.appealsec_repairpage_content_header {
+  margin-bottom: 28px;
+}
+
+.appealsec_repairpage_content_main_leftpart_list_item_title h3 {
+  font-size: 1.25rem;
+}
+
+.appealsec_repairpage_content_main_leftpart_list_item b {
+  font-size: 1.125rem;
+  line-height: 26px;
+}
+
+.appealsec_repairpage_content_main_rightpart h3 {
+  font-size: 1.75rem;
+  line-height: 41px;
+  max-width: 85vw;
+}
+
+.appealsec_repairpage_content_main_rightpart {
+  padding-bottom: 24px;
+  width: auto;
+}
+
+.appealsec_repairpage_content_main_rightpart p {
+  margin-top: 20px;
+}
+
+.appealsec_repairpage_content_main_rightpart ul {
+  margin-top: 20px;
+}
+
+.appealsec_repairpage_content_main_rightpart b {
+  margin-top: 20px;
+}
+
+.appealsec_repairpage_content_main_rightpart a {
+  margin-top: 20px;
+}
+
+
+
+.consistssec_repairpage_content h2 {
+  font-size: 1.75rem;
+  line-height: 41px;
+}
+
+.consistssec_repairpage_content {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.consistssec_repairpage_content_list {
+  margin-top: 24px;
+  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.consistssec_repairpage_content_list_item b {
+  font-size: 0.75rem;
+}
+
+.consistssec_repairpage_content_list_item h3 {
+  font-size: 1.313rem;
+  line-height: 30px;
+}
+
+
+.appealsec_repairpage_content {
+  padding-bottom: 0px;
+}
+
+.consistssec_repairpage_content {
+  padding-top: 40px;
+}
+
+
+.nonepartsec_repairpage_content h2 {
+  margin-bottom: 16px;
+  font-size: 1.75rem;
+  line-height: 41px;
+}
+
+.nonepartsec_repairpage_content {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.nonepartsec_repairpage_content p {
+  font-size: 1rem;
+  line-height: 23px;
+}
+
+.nonepartsec_repairpage_content b {
+  font-size: 1rem;
+  line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .tasksec_repairpage {
+    background: #111820;
+  }
+
+  .tasksec_repairpage_content_title h2::before {
+    color: #FFFFFF;
+    display: none;
+  }
+
+  .tasksec_repairpage_content_title h2 {
+    color: #FFF;
+  }
+
+  .tasksec_repairpage_content_title_form {
+    background: #FFFFFF;
+    padding: 20px;
+  }
+
+  .tasksec_repairpage_content_title_form_form h3 {
+    display: block;
+  }
+
+.tasksec_repairpage_content {
+  padding-top: 24px;
+}
+
+.tasksec_repairpage_content_title_form_form input {
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.tasksec_repairpage_content_title_form_form {
+  margin-top: 0;
+}
+
+.tasksec_repairpage_content_title_form_container {
+  margin-bottom: 24px;
+}
+
+
+.tasksec_repairpage_content_title_form {
+  margin-top: 32px;
+}
+
+
+
+.worksec_repairpage_content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.worksec_repairpage_content h2 {
+  font-size: 1.75rem;
+  line-height: 41px;
+}
+
+.worksec_repairpage_content_list {
+  gap: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.worksec_repairpage_content_list_item h3 {
+  font-size: 1.25rem;
+  line-height: 29px;
+}
+
+.worksec_repairpage_content_list_item {
+  padding: 0;
+  background: unset;
+}
+
+.worksec_repairpage_content a {
+  margin: 0;
+  margin-top: 24px;
+}
+
+
+
+
+
+
+.importantsec_repairpage_content h2 {
+  font-size: 1.75rem;
+  line-height: 41px;
+}
+
+.importantsec_repairpage_content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100vw - 48px);
+}
+
+.importantsec_repairpage_content_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.importantsec_repairpage_content p {
+  font-size: 1rem;
+  line-height: 23px;
+  margin-top: 23px;
+}
+
+.importantsec_repairpage_content_list_item {
+  font-size: 1.125rem;
+  line-height: 26px;
+  height: 66px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: flex-start;
+}
+
+.importantsec_repairpage_content b {
+  font-size: 1rem;
+  line-height: 23px;
+  margin-top: 24px;
+}
+
+.appealsec_repairpage_content_main {
+  margin-bottom: 40px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
