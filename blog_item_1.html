@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+	<title>GARDEN / СТАТЬИ / CТАТЬЯ</title>
+</head>
+
+<body>
+	<div class="wrapper ">
+		<div class="order-modal" id="orderModal">
+	    	<div class="order-modal__overlay"></div>
+		    <div class="order-modal__window">
+		       
+		        <div class="order-modal__content">
+		        	<div class="order-modal__content_header">
+		        		<h2>Бронирование</h2>
+		        		<button class="order-modal__close" type="button" aria-label="Закрыть">
+		            		<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M23.5212 25.502L19.9982 21.979L16.4882 25.502L15.1362 24.137L18.6462 20.627L15.1492 17.13L16.5012 15.778L19.9982 19.275L23.5082 15.778L24.8602 17.13L21.3502 20.627L24.8602 24.137L23.5212 25.502Z" fill="#173127"/>
+							</svg>
+		        		</button>
+		        	</div>
+		            <p class="order-modal__description">
+		                Укажите даты и контакты. Мы уточним доступность и стоимость.
+		            </p>
+		            <form class="order-form" id="bookingForm">
+		            	<div class="order-form_dates">
+		            		<div class="booking__field">
+								<label class="booking__label" for="checkin">Заезд</label>
+								<div class="booking__input-wrap booking__date-wrap">
+									<input class="booking__date-real" type="date" id="checkin"name="checkin" required>
+								  	<span class="booking__date-placeholder">дд.мм.гггг</span>
+								  	<svg class="booking__calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M3 10H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 14H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 14H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 14H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 18H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 18H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 18H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									</svg>
+								</div>
+							</div>
+							<div class="booking__field">
+								<label class="booking__label" for="checkout">Выезд</label>
+							    <div class="booking__input-wrap booking__date-wrap">
+									<input class="booking__date-real" type="date" id="checkout"name="checkout" required>
+							  		<span class="booking__date-placeholder">дд.мм.гггг</span>
+							  		<svg class="booking__calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 2V6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M3 10H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 14H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 14H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 14H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M8 18H8.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M12 18H12.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+										<path d="M16 18H16.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#25594C"/>
+									</svg>
+								</div>
+							</div>
+		            	</div>
+		            	<div class="booking__field">
+							<label class="booking__label">Гости</label>
+							<div class="booking__custom-select">
+								<button class="booking__custom-trigger" type="button" aria-expanded="false">
+								    <span class="booking__custom-value">Не выбрано</span>
+								    <span class="booking__select-arrow"></span>
+								</button>
+
+								<div class="booking__custom-dropdown">
+								    <button type="button" class="booking__custom-option is-selected" data-value="1">Не выбрано</button>
+								    <button type="button" class="booking__custom-option" data-value="2">1 гость</button>
+								    <button type="button" class="booking__custom-option" data-value="3">2 гостя</button>
+								    <button type="button" class="booking__custom-option" data-value="4">3 гостя</button>
+								</div>
+								<input type="hidden" name="guests" value="1" required="required">
+							</div>
+						</div>
+						<div class="booking__field booking__field_modal">
+							<label class="booking__label">Ваше имя</label>
+							<input type="text" name="" id="" placeholder="Как к вам обращаться" required="required">
+						</div>
+						<div class="booking__field booking__field_modal">
+							<label class="booking__label">Телефон</label>
+							<input type="tel" name="" id="" placeholder="+7 …" data-tel-input required="required">
+						</div>
+						<label class="booking__checkbox">
+						    <input type="checkbox" name="agreement" required="required">
+						    <span class="booking__checkbox-box"></span>
+						    <span class="booking__checkbox-text">Согласие на обработку персональных данных</span>
+						</label>
+						<button type="submit" class="order-form_submit">
+							Отправить запрос
+						</button>
+						<p class="order-form_dopinfo">Отправка запроса не подтверждает бронирование. Оплата на этом этапе не требуется.</p>
+		            </form>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="order-modal2" id="orderModal2">
+	    	<div class="order-modal2__overlay"></div>
+		    <div class="order-modal2__window">
+		        <div class="order-modal__content order-modal__content_thanks">
+		        	<h2>Запрос отправлен</h2>
+		        	<p>Менеджер свяжется с вами, чтобы уточнить даты, доступность и стоимость.</p>
+		        	<button class="order-modal2__close order-modal__close_thanks">
+		        		Закрыть
+		        	</button>
+		        </div>
+		    </div>
+		</div>
+		<header class="header">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="header_content">
+						<a class="header_content_logo" href="index.html">
+							<img src="img/header_logo.svg" alt="">
+						</a>
+						<nav class="header_content_navlist">
+							<ul class="header_content_navlist_list">
+								<li class="header_content_navlist_list_item">
+									<a href="apartment.html">
+										Апартаменты
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="infrastructure.html">
+										Инфраструктура
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="blog.html">
+										Статьи
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item">
+									<a href="promo.html">
+										Акции и скидки
+									</a>
+								</li>
+								<li class="header_content_navlist_list_item header_content_navlist_list_item_more">
+									<a class="header_content_navlist_more_btn" href="#">
+										<p>Ещё</p>
+										<img src="img/header_arrow.svg" alt="">
+									</a>
+									<div class="header_content_navlist_dropdown">
+								        <a href="about.html">О комплексе</a>
+								        <a href="conditions.html">Условия проживания</a>
+								        <a href="contacts.html">Контакты</a>
+								        <a href="contacts.html#mapsec_contactspage_content">Как добраться</a>
+							        	<button class="header_content_navlist_dropdown_close" type="button">
+							            Закрыть
+							       		</button>
+   					 				</div>
+								</li>
+							</ul>
+						</nav>
+						<button class="header_content_btn btn_animate order" href="#">
+							Забронировать
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="firstsec_blogitempage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="firstsec_blogitempage_content">
+						<div class="firstsec_blogitempage_content_header">
+							<h1>Как выбрать апартаменты для отдыха у моря</h1>
+							<p>Планируем поездку · 4 минуты на чтение</p>
+						</div>
+						<img src="img/firstsec_blogpage_content_image.png" alt="">
+						<div class="firstsec_blogitempage_content_title">
+							<p>Хороший выбор начинается с ваших планов: сколько человек едет, как долго вы останетесь и что хотите делать во время отдыха. Сравнивайте варианты по одним и тем же критериям.</p>
+
+							<h2>Определите состав гостей</h2>
+							<p>Уточните не только максимальную вместимость, но и расположение спальных мест. Для семьи или компании важно понимать, сколько в апартаментах отдельных комнат и где будут спать гости.</p>
+							<h2>Посмотрите на повседневные детали</h2>
+							<p>Проверьте оснащение кухни, наличие стиральной машины, кондиционера и нужной бытовой техники. Не считайте удобство доступным, если оно не указано в описании.</p>
+							<h2>Уточните путь к морю</h2>
+							<p>Расстояние по прямой не описывает реальный маршрут. Узнайте, где находится доступный выход к пляжу, есть ли лестницы и какой путь предстоит пройти.</p>
+							<h2>Сравните итоговую стоимость</h2>
+							<p>До оплаты уточните стоимость за весь срок, дополнительные сборы, депозит и условия отмены. Сохраните подтверждение согласованных условий.</p>
+							<h2>Задайте вопросы до поездки</h2>
+							<p>Согласуйте время заезда, получение ключей и способ связи в день прибытия. Так организационные детали займут меньше времени во время отдыха.</p>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</section>
+
+		<section class="selectapartmentsec_blogitempage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="selectapartmentsec_blogitempage_content">
+						<div class="selectapartmentsec_blogitempage_content_header">
+							<h2>Перейдите от планов к выбору</h2>
+						</div>
+						<a class="btn_animate" href="catalog.html">
+							Выбрать апартаменты
+						</a>
+					</div>
+					<a class="selectapartmentsec_blogitempage_content_showmore btn_animate2" href="blog.html">
+						Все статьи
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="full_container">
+				<div class="main__container">
+					<div class="footer_content">
+						<a class="footer_content_logo" href="index.html">
+							<img src="img/footer_content_logo.svg" alt="">
+						</a>
+						<b>Апартаменты для отдыха в Севастополе</b>
+						<nav class="footer_content_nav">
+							<ul class="footer_content_nav_list">
+								<li class="footer_content_nav_list_item">
+									<a href="apartment.html">
+										Апартаменты
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="infrastructure.html">
+										Инфраструктура
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="conditions.html">
+										Условия проживания
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="about.html">
+										О нас
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="blog.html">
+										Статьи
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="promo.html">
+										Акции и скидки
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="contacts.html">
+										Контакты
+									</a>
+								</li>
+								<li class="footer_content_nav_list_item">
+									<a href="contacts.html#mapsec_contactspage_content">
+										Как добраться
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="footer_content_title">
+							<p>Севастополь, ул. Лётчиков, 10</p>
+							<p>Связаться с отделом аренды — через заявку</p>
+						</div>
+						<div class="footer_content_policy">
+							<a href="policy.html">
+								Политика конфиденциальности  
+							</a>
+							<p>·</p>
+							<a href="policy.html">
+								Согласие на обработку данных
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-3.6.2.min.js"></script>
+	 	<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/main.js"></script> 
+	
+</body>
+</html>
+
+
+
+
+
+
+
