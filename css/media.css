@@ -1,0 +1,21 @@
+@media screen and (max-width: 1280px) and (min-width: 1200px){
+  .main__container{
+    max-width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.searchsec_mainpage_content_list_item_container img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}
