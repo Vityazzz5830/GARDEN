@@ -1,0 +1,395 @@
+@media screen and (max-width: 1280px) and (min-width: 1200px){
+  .main__container{
+    max-width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.searchsec_mainpage_content_list_item_container img {
+  width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width: 1199px) and (min-width: 320px){
+ /*----------------------ГЛАВНАЯ СТРАНИЦА---------------------------*/
+.header_content_navlist {
+  display: none;
+}
+
+.header_content_btn {
+  display: none;
+}
+
+.header_content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.firstscreen_container {
+  height: calc(100vh - 87px);
+}
+
+.header_content_btn_mobile{
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  max-width: 110px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #91A59A;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.burger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 16px;
+}
+
+.burger-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #25594C;
+  border-radius: 2px;
+}
+
+.header_content_btn_mobile p{
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: #25594C;
+}
+
+.header_content_btn_mobile{
+  display: flex;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  background: #FFFFFF;
+  right: -100%;
+  width: 100%;
+  height: calc(100vh - 86px);
+  z-index: 100;
+  display: flex;
+  transition: 0.6s;
+}
+
+.popup.open {
+  right: 0;
+  display: block;
+  z-index: 10000;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.popup_header {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .burger_content_list_items {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+.burger_content_list_item {
+  display: flex;
+}
+
+.burger_content_list_item > a {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: #25594C;
+  text-decoration: none;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 12px;
+}
+
+
+.header_content_burger{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  position: relative;
+  width: 40px;
+  height: 40px; 
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.header_content_burger span {
+    position: absolute;
+    width: 46px;
+    height: 5px;
+    background: #16191D;
+    transition: all 0.3s ease;
+}
+
+.header_content_burger span:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+.header_content_burger span:nth-child(2) {
+    transform: translateY(0);
+}
+
+.header_content_burger span:nth-child(3) {
+    transform: translateY(10px);
+}
+
+.header_content_burger.active span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.header_content_burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.header_content_burger.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+
+.burger_content_list_items{
+  list-style-type: none;
+}
+
+
+.firstsec_mainpage_content {
+  height: calc(100% - 46px);
+}
+
+.firstsec_mainpage_content_container {
+  justify-content: space-between;
+}
+
+  .firstsec_mainpage_content_buttons {
+    margin-top: auto !important;
+  }
+
+
+.firstsec_mainpage_content_container > .main__container{
+  height: calc(100% - 54px);
+}
+
+.burger_content_list_item > a:hover {
+  background: #EFF5F1;
+  transition: 0.5s ease;
+}
+
+
+.firstsec_mainpage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.firstsec_mainpage_content h1 {
+  font-size: 2.375rem;
+  line-height: 50px;
+}
+
+.firstsec_mainpage_content_buttons {
+  margin-top: 87px;
+}
+
+.firstsec_mainpage_content {
+  padding: 56px 0 60px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.firstsec_mainpage_content > h1:nth-child(2) > br:nth-child(1) {
+  display: none;
+}
+
+
+  .firstsec_mainpage_content_buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 20px !important;
+  }
+
+.firstsec_mainpage_content_buttons_select {
+  max-width: unset;
+}
+
+.firstsec_mainpage_content_buttons_bron {
+  max-width: unset;
+}
+
+.booking__form {
+  grid-template-columns: 1fr 1fr;
+}
+
+.searchsec_mainpage {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.booking__button {
+  height: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.placesec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.advantagessec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.plansec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.restsec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.mapsec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.imaginesec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.stepssec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.benefitsec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.questionssec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.selectapartmentsec_mainpage {
+  display: none;
+}
+
+/* Элемент | file:///C:/Users/%D0%A2%D0%BE%D0%BF%D1%87%D0%B8%D0%BA/Desktop/myFirstSite/43_GARDEN/index.html */
+
+.wrapper > footer:nth-child(16) {
+  display: none;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 389px) and (min-width: 320px) {
+ /*----------------------ГЛАВНАЯ СТРАНИЦА---------------------------*/
+ 
+  .firstsec_mainpage_content_container {
+    justify-content: space-between;
+    zoom: 94%;
+  }
+
+   .firstsec_mainpage_content_buttons {
+    margin-top: 20px !important;
+  }
+
+
+
+
+
+}
